@@ -32,7 +32,7 @@ export default {
   methods: {
     onSendMessage() {
       if (this.typedText) {
-        let messageData = {
+        const messageData = {
           id: uuid(),
           author: 'Me',
           time: Date.now(),
